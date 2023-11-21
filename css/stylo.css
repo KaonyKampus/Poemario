@@ -1,0 +1,14 @@
+.caja {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartitas {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 5px;
+    background-image:url(/images/muerte.jpg);
+}
