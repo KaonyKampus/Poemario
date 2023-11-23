@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
 .caja {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .cartitas {
@@ -11,4 +13,48 @@
     background-color: red;
     margin: 5px;
     background-image:url(/images/muerte.jpg);
+    border-radius: 15px;
+    color: white;
+
 }
+
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Lobster', sans-serif;
+    font-size: 400;
+    color: black;
+    background-color: aqua;
+     }
+
+
+    .cartasA {
+        display: flex;
+        overflow-x: auto;
+        scrollbar-width: none;
+        padding: 1.5rem 0;
+    }
+
+    .card {
+        position: relative;
+        flex: 0 0 309px;
+        height: 450px;
+        overflow: hidden;
+        margin-left: 1.5rem;
+        border-radius: 18px;
+        box-shadow: 
+            2px 4px 12px
+            rgba(0, 0, 0, 0.08);
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .body {
+        position: absolute;
+        top: 0;
+        padding: 28px;
+        font-family: sam 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
