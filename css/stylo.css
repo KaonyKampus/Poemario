@@ -1,28 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
-
-
-
-.caja {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.nav-link {
-    text-decoration: none;
-    font-family: 'Lobster', sans-serif;
-    font-size: 400;
-    color: black;
-    background-color: aqua;
-     }
+.cuerpo{
+  background-color: black;
+}
 
-.cartitas {
-    flex-grow: 1;
-    flex-basis: 200;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
-    background-image:url(/images/muerte.jpg);
-    border-radius: 15px;
-    color: white;
+.cajaTituloK {
+  padding: 15px 30px 0px 30px;
+  background-color: aqua;
+  margin: 80px 10px 0px 10px;
+}
+
+
+.tituloKaony {
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(200,200,200,0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
+
+
+.accordion {
+   width: 80%;
+   height: 250px;
+   overflow: hidden;
+   margin: 50px auto;
+}
+
+ul{
+   width: 100%;
+   display: table;
+   table-layout: fixed;
+   margin: 0;
+}
+
+/*Barra de navegacion*/
+li {
+    /* Agrega la URL de la primera imagen */
+   --img-1: url("https://img.freepik.com/fotos-premium/robot-metal-amarillo-escribiendo-teclado-entorno-postapocaliptico-paredes-hormigon-color-purpura-tecnologia-gen_906405-997.jpg");
+   --img-2: url("https://previews.123rf.com/images/scis65/scis651408/scis65140800050/31241973-manuscritos-antiguos-escritos-en-s%C3%A1banas-sucias-viejas.jpg");
+   --img-3: url("https://www.gamespot.com/a/uploads/screen_kubrick/171/1712892/3587754-screen%20shot%202019-10-03%20at%2012.27.06%20pm.png");
+   --img-4: url("https://i0.wp.com/listalibro.com/wp-content/uploads/2021/05/Boom-latinoamericano-e1622161066898.jpg");
+
+   
+   &:nth-child(1) {
+    background-image: var(--img-1);
+  }
+
+  &:nth-child(2) {
+    background-image: var(--img-2);
+  }
+
+  &:nth-child(3) {
+    background-image: var(--img-3);
+  }
+
+  &:nth-child(4) {
+   background-image: var(--img-4);
+ }
+
+
+
+
+
+  width: 30%;
+  height: 250px;
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: all 500ms ease;
+}
+
+li div{ 
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+li div a {
+  display: block;
+  height: 250px;
+  width: 100%;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 4px 3px 0px rgba(0,0,0,0.75);
+  transition: all 200ms ease;
+}
+
+li div a *{
+  width: 100%;
+  margin: 0;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateX(-20px);
+  transition: all 400ms ease;
+}
+
+li div a h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 4px 3px 0px rgba(0,0,0,0.75);
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+}
+
+li div a p {
+  top: 160px;
+  font-size: 13.5px;
+}
+
+li div a *{
+ opacity: 0;
+}
+
+ul:hover li {
+ width: 10%;
+}
+
+ul:hover li:hover {
+ width: 80%;
+}
+
+ul:hover li:hover a{
+ background-color: #00000066;
+}
+
+ul:hover li:hover a *{
+ opacity: 1;
+ transform: translateX(0);
 }
