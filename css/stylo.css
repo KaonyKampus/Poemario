@@ -10,7 +10,7 @@
 
 .cajaTituloK {
   padding: 15px 30px 0px 30px;
-  background-color: aqua;
+  background-color: rgb(0, 255, 255);
   margin: 80px 10px 0px 10px;
 }
 
@@ -18,7 +18,7 @@
 .tituloKaony {
   color: white;
   text-align: center;
-  text-shadow: 11px 5px 7px rgba(200,200,200,0.83);
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
   font-family: 'Bebas Neue', sans-serif;
   font-size: 70px;
 }
@@ -146,4 +146,62 @@ ul:hover li:hover a{
 ul:hover li:hover a *{
  opacity: 1;
  transform: translateX(0);
+ }
+
+
+ /*pie de pagina*/
+
+
+
+ 
+ .piePagina {
+  display: flex;
+  gap: 50px;
+  padding: 10px 600px 10px 550px;
+ }
+
+ .faceLogo {
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+ }
+
+ .faceLogo:hover {
+  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
 }
+
+ .instaLogo {
+  width: 55px;  
+  transition: transform 0.3s ease-in-out;
+}
+
+.instaLogo:hover {
+  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+}
+
+.githubLogo {
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.githubLogo:hover {
+  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+}
+
+.vscoLogo {
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.vscoLogo:hover {
+  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+}
+
+.tiktokLogo {
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tiktokLogo:hover {
+  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+}
+
