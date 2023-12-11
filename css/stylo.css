@@ -8,6 +8,11 @@
   background-color: black;
 }
 
+.cuerpObra {
+  border: 1px solid #a833cc;
+  margin: 20px 20px 20px 20px;
+}
+
 .cajaTituloK {
   padding: 15px 30px 0px 30px;
   background-color: rgb(0, 255, 255);
@@ -151,17 +156,66 @@ ul:hover li:hover a *{
  }
 
 
- /*pie de pagina*/
+/*poemas poemas poemas poemas poemas*/
+.poemasCajaCompleta {
+  margin: 35px 35px 35px 35px;
+}
 
 
+.poemasContainerL{
+  display: flex;
+  gap: 300px;
+  justify-content:center;
+  margin-top: 50px;
+  margin-right: 200px;
+}
 
- 
+.poemasContainerR{
+  display: flex;
+  gap: 300px;
+  justify-content:center;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+
+.poemaCaja { 
+  width: 350px;
+  border-radius: 20px;
+  border: 5px solid #3333cc;
+  overflow: hidden;
+  box-shadow: 20px 10px 3px rgba(112, 18, 167, 0.3);
+  position:relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.poemaCaja:hover {
+  transform: translate(10px, 10px)
+}
+
+
+.poemaImagen {
+  max-width:350px;
+  position:relative;
+}
+
+.poemaText {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+  color: rgb(75, 47, 201);
+  text-shadow: 4px 3px 0px rgba(0,0,0,0.75);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ /*pie de pagina*/ 
  .piePagina {
   display: flex;
   gap: 60px;
   padding: 10px 600px 10px 550px;
   justify-content: center;
- }
+ } 
 
  .faceLogo {
   width: 50px;
@@ -169,8 +223,8 @@ ul:hover li:hover a *{
  }
 
  .faceLogo:hover {
-  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
-}
+  transform: translate(10px, 10px); 
+ }
 
  .instaLogo {
   width: 55px;  
@@ -178,7 +232,7 @@ ul:hover li:hover a *{
 }
 
 .instaLogo:hover {
-  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+  transform: translate(10px, 10px); 
 }
 
 .githubLogo {
@@ -187,7 +241,7 @@ ul:hover li:hover a *{
 }
 
 .githubLogo:hover {
-  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+  transform: translate(10px, 10px); 
 }
 
 .vscoLogo {
@@ -196,7 +250,7 @@ ul:hover li:hover a *{
 }
 
 .vscoLogo:hover {
-  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+  transform: translate(10px, 10px); 
 }
 
 .tiktokLogo {
@@ -205,8 +259,10 @@ ul:hover li:hover a *{
 }
 
 .tiktokLogo:hover {
-  transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
+  transform: translate(10px, 10px); 
 }
+  
+
 
 @media screen {
 
