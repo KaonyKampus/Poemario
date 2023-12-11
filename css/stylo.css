@@ -11,6 +11,7 @@
 .cajaTituloK {
   padding: 15px 30px 0px 30px;
   background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #ff00cc, #3333cc);
   margin: 80px 10px 0px 10px;
 }
 
@@ -156,8 +157,9 @@ ul:hover li:hover a *{
  
  .piePagina {
   display: flex;
-  gap: 50px;
+  gap: 60px;
   padding: 10px 600px 10px 550px;
+  justify-content: center;
  }
 
  .faceLogo {
