@@ -13,6 +13,7 @@
   background-color: rgb(0, 255, 255);
   background: linear-gradient(to right, #ff00cc, #3333cc);
   margin: 80px 10px 0px 10px;
+  
 }
 
 
@@ -207,3 +208,6 @@ ul:hover li:hover a *{
   transform: translate(10px, 10px); /* Mover la imagen 10px a la derecha y 10px hacia abajo */
 }
 
+@media screen {
+
+}
