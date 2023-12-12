@@ -9,18 +9,32 @@
 }
 
 .cuerpObra {
-  border: 1px solid #a833cc;
-  margin: 20px 20px 20px 20px;
+  border: 2px solid #a833cc;
+  margin: 10px 10px 10px 10px;
 }
+
+.cuerpoP {
+  border: 2px solid #a833cc;
+  margin: 10px 10px 10px 10px;
+}
+
+.cuerpoI {
+  border: 2px solid #a833cc;
+  margin: 10px 10px 10px 10px;
+}
+
+.cuerpoInfluencias {
+  border: 2px solid #a833cc;
+  margin: 10px 10px 10px 10px;
+}
+
 
 .cajaTituloK {
   padding: 15px 30px 0px 30px;
   background-color: rgb(0, 255, 255);
   background: linear-gradient(to right, #ff00cc, #3333cc);
   margin: 80px 10px 0px 10px;
-  
 }
-
 
 .tituloKaony {
   color: white;
@@ -155,38 +169,64 @@ ul:hover li:hover a *{
  transform: translateX(0);
  }
 
+/*titulo de la obra completa*/
 
+.cajaTituloO {
+  padding: 15px 30px 0px 30px;
+  background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #ff00cc, #3333cc);
+  margin: 50px 10px 0px 10px;
+}
+
+.tituloKaonyO {
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
 /*poemas poemas poemas poemas poemas*/
 .poemasCajaCompleta {
   margin: 35px 35px 35px 35px;
 }
 
 
-.poemasContainerL{
+.poemasContainer{
   display: flex;
-  gap: 300px;
-  justify-content:center;
+  gap: 100px;
+  justify-content:left;
   margin-top: 50px;
-  margin-right: 200px;
+  margin-bottom: 100px;
+  overflow-x:auto;
+  white-space: nonwrap;
+  padding-bottom: 50px;
 }
 
-.poemasContainerR{
-  display: flex;
-  gap: 300px;
-  justify-content:center;
-  margin-top: 50px;
-  margin-left: 200px;
+.poesContainer::-webkit-scrollbar {
+  width: 100px; /* Ancho del scroll */
+}
+
+.poesContainer::-webkit-scrollbar-thumb {
+  background-color: #057aff86; /* Color del thumb (la parte deslizable) */
+  border-radius: 20px; /* Bordes redondeados del thumb */
+}
+
+.poesContainer::-webkit-scrollbar-track {
+  background-color: #975f5f; /* Color de la pista del scrollbar (el área detrás del thumb) */
 }
 
 
 .poemaCaja { 
-  width: 350px;
+  flex: 0 0 auto;
+  width: 250px;
+  height: auto;
   border-radius: 20px;
   border: 5px solid #3333cc;
   overflow: hidden;
   box-shadow: 20px 10px 3px rgba(112, 18, 167, 0.3);
   position:relative;
   transition: transform 0.3s ease-in-out;
+  margin-right: 10px;
 }
 
 .poemaCaja:hover {
@@ -195,26 +235,34 @@ ul:hover li:hover a *{
 
 
 .poemaImagen {
-  max-width:350px;
+  width: 250px;
+  height: 250px;
   position:relative;
+  display: flex;
 }
 
 .poemaText {
   position: absolute;
-  bottom: 10px;
+  bottom: 5px;
   left: 10px;
   z-index: 1;
-  color: rgb(75, 47, 201);
   text-shadow: 4px 3px 0px rgba(0,0,0,0.75);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex: 1;
 }
+
+.linkeo {
+  text-decoration: none;
+  color: #b1dfe2;
+}
+
 
  /*pie de pagina*/ 
  .piePagina {
   display: flex;
   gap: 60px;
-  padding: 10px 600px 10px 550px;
   justify-content: center;
+  margin: 5px;
  } 
 
  .faceLogo {
