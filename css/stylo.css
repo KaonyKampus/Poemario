@@ -27,6 +27,11 @@
   border: 2px solid #a833cc;
   margin: 10px 10px 10px 10px;
 }
+/*cuerpo de los poemas*/
+.poemasAparte {
+  border: 2px solid #a833cc;
+  margin: 10px 10px 10px 10px;
+}
 
 /*encabezado pagina principal */
 .cajaTituloPrincipal {
