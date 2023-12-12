@@ -3,46 +3,113 @@
   margin: 0;
   padding: 0;
 }
-
+/*cuepo general*/
 .cuerpo{
   background-color: black;
 }
-
+/*cuerpó pagina obra*/
 .cuerpObra {
   border: 2px solid #a833cc;
   margin: 10px 10px 10px 10px;
 }
-
+/*cuerpo pagina presentacion*/
 .cuerpoP {
   border: 2px solid #a833cc;
   margin: 10px 10px 10px 10px;
 }
-
+/*cuerpo invitados*/
 .cuerpoI {
   border: 2px solid #a833cc;
   margin: 10px 10px 10px 10px;
 }
-
+/*cuerpo influencias*/
 .cuerpoInfluencias {
   border: 2px solid #a833cc;
   margin: 10px 10px 10px 10px;
 }
 
-
-.cajaTituloK {
+/*encabezado pagina principal */
+.cajaTituloPrincipal {
   padding: 15px 30px 0px 30px;
   background-color: rgb(0, 255, 255);
   background: linear-gradient(to right, #ff00cc, #3333cc);
   margin: 80px 10px 0px 10px;
 }
 
-.tituloKaony {
+.tituloPrincipal {
   color: white;
   text-align: center;
   text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
   font-family: 'Bebas Neue', sans-serif;
   font-size: 70px;
 }
+
+/*encabezado pagina presentacion */
+.cajaTituloPresentacion{
+  padding: 15px 30px 0px 30px;
+  background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #63ec5e, #4309e2);
+  margin: 30px 10px 20px 10px;
+}
+.tituloPresentacion{
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
+
+/*encabezado pagina obra completa*/
+.cajaTituloO {
+  padding: 15px 30px 0px 30px;
+  background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #ff00cc, #3333cc);
+  margin: 50px 10px 0px 10px;
+}
+
+.tituloKaonyO {
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
+
+/*encabezado pagina invitados */
+.cajaTituloInvitados {
+  padding: 15px 30px 0px 30px;
+  background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #ff00cc, #3333cc);
+  margin: 80px 10px 0px 10px;
+}
+
+.tituloInvitados {
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
+
+/*encabezado pagina influencias*/
+.cajaTituloInfluencias {
+  padding: 15px 30px 0px 30px;
+  background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #ff00cc, #3333cc);
+  margin: 80px 10px 0px 10px;
+}
+
+.tituloInfluencias {
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
+
+
+
+
 
 
 .accordion {
@@ -169,22 +236,6 @@ ul:hover li:hover a *{
  transform: translateX(0);
  }
 
-/*titulo de la obra completa*/
-
-.cajaTituloO {
-  padding: 15px 30px 0px 30px;
-  background-color: rgb(0, 255, 255);
-  background: linear-gradient(to right, #ff00cc, #3333cc);
-  margin: 50px 10px 0px 10px;
-}
-
-.tituloKaonyO {
-  color: white;
-  text-align: center;
-  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 70px;
-}
 /*poemas poemas poemas poemas poemas*/
 .poemasCajaCompleta {
   margin: 35px 35px 35px 35px;
@@ -202,17 +253,22 @@ ul:hover li:hover a *{
   padding-bottom: 50px;
 }
 
-.poesContainer::-webkit-scrollbar {
-  width: 100px; /* Ancho del scroll */
+/*scrollbar scrollbar scrollbar*/
+.poemasContainer::-webkit-scrollbar {
+  width: 250px;
+}
+.poemasContainer::-webkit-scrollbar-track {
+  background-color: #3333cc;
+  border-radius: 15px;
 }
 
-.poesContainer::-webkit-scrollbar-thumb {
-  background-color: #057aff86; /* Color del thumb (la parte deslizable) */
-  border-radius: 20px; /* Bordes redondeados del thumb */
+.poemasContainer::-webkit-scrollbar-thumb {
+  background-color: #ee5a5a4d;
+  border-radius: 15px;
 }
 
-.poesContainer::-webkit-scrollbar-track {
-  background-color: #975f5f; /* Color de la pista del scrollbar (el área detrás del thumb) */
+.poemasContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #b500da;
 }
 
 
@@ -223,7 +279,7 @@ ul:hover li:hover a *{
   border-radius: 20px;
   border: 5px solid #3333cc;
   overflow: hidden;
-  box-shadow: 20px 10px 3px rgba(112, 18, 167, 0.3);
+  box-shadow: 20px 10px 3px #7012a74d;
   position:relative;
   transition: transform 0.3s ease-in-out;
   margin-right: 10px;
@@ -235,6 +291,7 @@ ul:hover li:hover a *{
 
 
 .poemaImagen {
+  justify-content: center;
   width: 250px;
   height: 250px;
   position:relative;
@@ -249,12 +306,104 @@ ul:hover li:hover a *{
   text-shadow: 4px 3px 0px rgba(0,0,0,0.75);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   flex: 1;
+  
 }
 
 .linkeo {
   text-decoration: none;
-  color: #b1dfe2;
+  color: #ffffff;
 }
+
+.linkeo:hover {
+  color: rgb(180, 180, 180);
+}
+
+
+/*pagina quien soy yo*/
+
+.cajaPerfilP {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  background-color: #ffffff;
+  margin: 0px 100px 15px 100px;
+  gap: 350px;
+}
+
+
+.cajaParrafoP {
+  text-align: left;
+}
+
+.hello {
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  text-shadow: 11px 4px 10px rgb(117, 235, 0);
+}
+
+.hello2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: #000000;
+  padding-bottom: 30px;
+  text-shadow: 11px 4px 10px rgb(117, 235, 0);
+
+}
+
+.hello3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 200px;
+}
+
+
+
+.cajaSecundariaPerfil {
+  justify-content: center;
+  align-items: center;
+}
+
+
+.textoU {
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  text-shadow: 11px 4px 10px rgba(17, 0, 255, 0.671);
+}
+
+
+.edad{
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 4px 3px 4px rgb(117, 235, 0);
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+
+
+.cajaImagenPerfil {
+  border-radius: 200px;
+  overflow: hidden;
+  width: 250px;
+  border:solid 3px #3333cc;
+  
+  justify-self: center;
+}
+
+
+.imagenPerfil {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+}
+
+
+
+
+
 
 
  /*pie de pagina*/ 
