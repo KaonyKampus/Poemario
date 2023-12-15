@@ -257,6 +257,7 @@ ul:hover li:hover a *{
   overflow-x:auto;
   white-space: nonwrap;
   padding-bottom: 50px;
+  padding-right: 20px;
 }
 
 /*scrollbar scrollbar scrollbar*/
