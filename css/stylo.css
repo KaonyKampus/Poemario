@@ -410,6 +410,79 @@ ul:hover li:hover a *{
 /*caja galeria*/
 
 
+
+/*poemas poemas poemas poemas poemas poemas */
+.cajaPoemaCompleto1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 250px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito1 {
+  justify-content: center;
+}
+
+.tituloPoema1 {
+  color: white;
+  text-align: center;
+  width: 320px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+}
+
+
+.cajaSecundariaImagen1 {
+  justify-content: center;
+}
+
+.cajaImagenPoema1 {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 300px;
+  justify-self: center;
+  margin-top: 60px;
+}
+
+.imagenPoema1 {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+
+audio {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #000000;
+  border-radius: 8px;
+
+}
+
+audio:hover {
+  border-color: #7690de;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ddd;
+  color: #06ff0a;
+}
+  
+audio::-webkit-media-controls-play-button {
+  background-color: #37ff00;
+  border-radius: 10px;
+}
+
  /*pie de pagina*/ 
  .piePagina {
   display: flex;
