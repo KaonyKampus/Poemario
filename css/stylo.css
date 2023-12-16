@@ -545,18 +545,18 @@ audio::-webkit-media-controls-play-button {
     text-align: center;
     text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .piePagina {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     justify-content: center;
     margin: 10px;
    } 
   
    .faceLogo {
-    width: 20px;
+    width: 25px;
     transition: transform 0.3s ease-in-out;
    }
   
@@ -565,7 +565,7 @@ audio::-webkit-media-controls-play-button {
    }
   
    .instaLogo {
-    width: 25px;  
+    width: 28px;  
     transition: transform 0.3s ease-in-out;
   }
   
@@ -574,7 +574,7 @@ audio::-webkit-media-controls-play-button {
   }
   
   .githubLogo {
-    width: 20px;
+    width: 25px;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -583,7 +583,7 @@ audio::-webkit-media-controls-play-button {
   }
   
   .vscoLogo {
-    width: 20px;
+    width: 25px;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -592,7 +592,7 @@ audio::-webkit-media-controls-play-button {
   }
   
   .tiktokLogo {
-    width: 20px;
+    width: 25px;
     transition: transform 0.3s ease-in-out;
   }
   
