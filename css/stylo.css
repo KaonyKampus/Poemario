@@ -538,6 +538,58 @@ audio::-webkit-media-controls-play-button {
   
 
 
-@media screen {
+@media screen and (min-width: 200px) and (max-width: 812px){
 
+  .piePagina {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 10px;
+   } 
+  
+   .faceLogo {
+    width: 20px;
+    transition: transform 0.3s ease-in-out;
+   }
+  
+   .faceLogo:hover {
+    transform: translate(10px, 10px); 
+   }
+  
+   .instaLogo {
+    width: 25px;  
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .instaLogo:hover {
+    transform: translate(10px, 10px); 
+  }
+  
+  .githubLogo {
+    width: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .githubLogo:hover {
+    transform: translate(10px, 10px); 
+  }
+  
+  .vscoLogo {
+    width: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vscoLogo:hover {
+    transform: translate(10px, 10px); 
+  }
+  
+  .tiktokLogo {
+    width: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tiktokLogo:hover {
+    transform: translate(10px, 10px); 
+  }
+    
 }
