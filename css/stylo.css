@@ -411,7 +411,7 @@ ul:hover li:hover a *{
 
 
 
-/*poemas poemas poemas poemas poemas poemas */
+/*poemas1*/
 .cajaPoemaCompleto1 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -482,6 +482,474 @@ audio::-webkit-media-controls-play-button {
   background-color: #37ff00;
   border-radius: 10px;
 }
+
+/*poemas2*/
+.cajaPoemaCompleto2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 220px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito2 {
+  justify-content: center;
+}
+
+.tituloPoema2 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito2 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen2 {
+  justify-content: center;
+}
+
+.cajaImagenPoema2 {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 300px;
+  justify-self: center;
+  margin-top: 60px;
+}
+
+.imagenPoema2 {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+/*poema3 poema3 poema3*/
+.cajaPoemaCompleto3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 220px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito3 {
+  justify-content: center;
+}
+
+.tituloPoema3 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito3 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen3 {
+  justify-content: center;
+}
+
+.cajaImagenPoema3 {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 300px;
+  justify-self: center;
+  margin-top: 80px;
+}
+
+.imagenPoema3 {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+
+/*poema4 poema4 poema4*/
+.cajaPoemaCompleto4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 220px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito4 {
+  justify-content: center;
+}
+
+.tituloPoema4 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito4 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen4 {
+  justify-content: center;
+}
+
+.cajaImagenPoema4 {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 300px;
+  justify-self: center;
+  margin-top: 80px;
+}
+
+.imagenPoema4 {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+/*poema5 poema5 poema5*/
+.cajaPoemaCompleto5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 220px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito5 {
+  justify-content: center;
+}
+
+.tituloPoema5 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito5 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen5 {
+  justify-content: center;
+}
+
+.cajaImagenPoema5 {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 300px;
+  justify-self: center;
+  margin-top: 80px;
+}
+
+.imagenPoema5 {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+/*poema6 poema6 poema6 poema6*/
+.cajaPoemaCompleto6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 220px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito6 {
+  justify-content: center;
+}
+
+.tituloPoema6 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito6 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen6 {
+  justify-content: center;
+}
+
+.cajaImagenPoema6 {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 300px;
+  justify-self: center;
+  margin-top: 80px;
+}
+
+.imagenPoema6 {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+/*poema7 poema7 poema7*/
+.cajaPoemaCompleto7 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 100px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito7 {
+  justify-content: center;
+}
+
+.tituloPoema7 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito7 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen7 {
+  justify-content: center;
+}
+
+.cajaImagenPoema7 {
+  border-radius: 50px;
+  justify-content: center;
+  overflow: hidden;
+  width: 430px;
+  margin-top: 80px;
+}
+
+.imagenPoema7 {
+  display: flex;
+  width: 430px;
+  justify-content: center;
+}
+
+/*poma8 poema8 poema8 poema8*/
+.cajaPoemaCompleto8 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 100px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito8 {
+  justify-content: center;
+}
+
+.tituloPoema8 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito8 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen8 {
+  justify-content: center;
+}
+
+.cajaImagenPoema8 {
+  border-radius: 50px;
+  justify-content: center;
+  overflow: hidden;
+  width: 430px;
+  margin-top: 80px;
+}
+
+.imagenPoema8 {
+  display: flex;
+  width: 430px;
+  justify-content: center;
+}
+
+/*poema9 poema9 poema9 poema9*/
+.cajaPoemaCompleto9 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 220px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito9 {
+  justify-content: center;
+}
+
+.tituloPoema9 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito9 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen9 {
+  justify-content: center;
+}
+
+.cajaImagenPoema9 {
+  border-radius: 50px;
+  justify-content: center;
+  overflow: hidden;
+  width: 430px;
+  margin-top: 80px;
+}
+
+.imagenPoema9 {
+  display: flex;
+  width: 430px;
+  justify-content: center;
+}
+
+/*poema10 poema10 poema10 poema10 poema10*/
+.cajaPoemaCompleto10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px 100px 15px 100px;
+  gap: 200px;
+  border-radius: 150px 10px 150px 10px;
+}
+
+.cajaEscrito10 {
+  justify-content: center;
+}
+
+.tituloPoema10 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 30px;
+  background-color: #3333cc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px ;
+}
+
+.parrafoEscrito10 {
+  color: rgb(255, 255, 255);
+  text-shadow: 10px 8px 5px rgba(255,255,255,0.44);
+  font-size: medium;
+  padding: 5px;
+}
+
+.cajaSecundariaImagen10 {
+  justify-content: center;
+}
+
+.cajaImagenPoema10 {
+  border-radius: 50px;
+  justify-content: center;
+  overflow: hidden;
+  width: 400px;
+  margin-top: 80px;
+}
+
+.imagenPoema10 {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
 
  /*pie de pagina*/ 
  .piePagina {
