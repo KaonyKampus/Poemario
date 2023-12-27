@@ -1015,6 +1015,59 @@ audio::-webkit-media-controls-play-button {
    li{
    width: 20%; 
    }
+  /*poemas poemas poemas poemas*/
+  /*Poema 1*/
+  .cajaPoemaCompleto1{
+    display: block;
+  }
+
+  /*Poema 2*/
+  .cajaPoemaCompleto2{
+    display: block;
+  }
+
+    /*Poema 3*/
+  .cajaPoemaCompleto3{
+    display: block;
+  }
+
+  /*Poema 4*/
+  .cajaPoemaCompleto4{
+    display: block;
+  }
+
+  /*Poema 5*/
+  .cajaPoemaCompleto5{
+    display: block;
+  }
+
+  /*Poema 6*/
+  .cajaPoemaCompleto6{
+    display: block;
+  }
+
+  /*Poema 7*/
+  .cajaPoemaCompleto7{
+    display: block;
+  }
+
+  /*Poema 8*/
+  .cajaPoemaCompleto8{
+    display: block;
+  }
+
+  /*Poema 9*/
+  .cajaPoemaCompleto9{
+    display: block;
+  }
+
+  /*Poema 10*/
+  .cajaPoemaCompleto10{
+    display: block;
+  }
+
+/*poemas poemas poemas poemas*/
+
 
 
   .tituloPrincipal {
@@ -1027,9 +1080,11 @@ audio::-webkit-media-controls-play-button {
 
   .piePagina {
     display: flex;
+    padding: 0px 0px 30px 0px;
     gap: 30px;
     justify-content: center;
-    margin: 10px;
+    margin: 10px 0px 40px 0px;
+    
    } 
   
    .faceLogo {
@@ -1076,5 +1131,5 @@ audio::-webkit-media-controls-play-button {
   .tiktokLogo:hover {
     transform: translate(10px, 10px); 
   }
-    
+
 }
