@@ -11,6 +11,7 @@
 .cuerpObra {
   border: 2px solid #a833cc;
   margin: 10px 10px 10px 10px;
+  box-sizing: border-box;
 }
 /*cuerpo pagina presentacion*/
 .cuerpoP {
