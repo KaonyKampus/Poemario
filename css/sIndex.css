@@ -36,7 +36,6 @@
   overflow: hidden;
   filter: hue-rotate(0deg) saturate(200%);
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -87,6 +86,14 @@
   width: 40px;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .box__principal{
+    width: 70%;
+  }
+  .imagen__principal{
+    width: 100%;
+    height: 400px;
+    transition: transform 0.3s ease
+  }
   .caja__principal{
     padding: 2rem;
     display: flex;
@@ -94,5 +101,6 @@
     justify-content: center;
     align-items: center;
   }
+
 }
 
