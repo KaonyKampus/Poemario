@@ -99,7 +99,7 @@
     width: 40px;
   }
 
-  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  @media only screen and (min-width: 300px) and (max-width: 850px) {
     .poema__box{
         width: 75%;
         height: 250px;
