@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.cuerpo{
+  background-color: black;
+}
+/*encabezado pagina principal */
+.cajaTituloPrincipal {
+  padding: 15px 30px 0px 30px;
+  background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #ff00cc, #3333cc);
+  margin: 5rem 0.5rem 0px 0.5rem;
+}
+
+.tituloPrincipal {
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
+
+.caja__principal{
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box__principal{
+  width: 25%;
+  overflow: hidden;
+  filter: hue-rotate(0deg) saturate(200%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imagen__principal{
+  width: 500px;
+  height: 300px;
+  transition: transform 0.3s ease
+}
+.imagen__principal:hover{
+  transform: scale(1.9);
+  cursor: pointer;
+}
+
+.card-text{
+  text-align: center;
+}
+
+
+.cajaTituloO{
+  padding: 15px 30px 0px 30px;
+  background-color: rgb(0, 255, 255);
+  background: linear-gradient(to right, #ff00cc, #3333cc);
+  margin: 5rem 0.5rem 0px 0.5rem;
+}
+
+.tituloKaonyO{
+  color: white;
+  text-align: center;
+  text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 70px;
+}
+
+
+/*pie de pagina*/
+.pie__pagina{
+  margin: 0.5rem;
+  background-color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+}
+.logo{
+  width: 40px;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .imagen__principal{
+    width: 250px;
+    height: 180px;
+    transition: transform 0.3s ease;
+  }
+}
+

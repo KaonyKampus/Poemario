@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.cuerpo{
+    background-color: black;
+}
+
+
+.cajaTituloO{
+    background-color: rgb(0, 255, 255);
+    background: linear-gradient(to right, #ff00cc, #3333cc);
+    margin: 4rem 0.5rem 0px 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  
+  .tituloKaonyO {
+    color: white;
+    text-align: center;
+    text-shadow: 11px 5px 7px rgba(27, 27, 27, 0.83);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+  }
+
+  .atras{
+    text-decoration: none;
+  }
+
+  .pAtras{
+    font-size: 40px;
+    color: black;
+  }
+
+
+  .poemasCajaCompleta{
+    margin: 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .poema__box{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .imagen_poema{
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .texto_poema{
+    position: absolute;
+    background-color: black;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 10px;
+    visibility: hidden; /* El texto es invisible por defecto */
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+
+  }
+  .imagen_poema:hover{
+    transform: scale(1.9);
+    filter: blur(0.5rem);
+
+  }
+
+  .imagen_poema:hover + .texto_poema{
+    visibility: visible;
+
+  }
+
+  
+
+
+
+
