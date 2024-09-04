@@ -87,10 +87,12 @@
   width: 40px;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  .imagen__principal{
-    width: 250px;
-    height: 180px;
-    transition: transform 0.3s ease;
+  .caja__principal{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
